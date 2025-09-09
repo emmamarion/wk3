@@ -16,8 +16,8 @@ body {
   background-color: #FF0000;
   text-align: right;
   margin-left: 50px;
-  border-bottom: 2px;
-  border-left: 5px;
+  border-bottom: 2px solid white;
+  border-left: 5px solid white;
 }
 
 .blue h2, .blue p {
@@ -27,16 +27,16 @@ body {
   background-color: #0800ff;
   text-align: left;
   margin-right: 50px;
-  border-right: 5px;
-  border-top: 2px;
+  border-right: 5px solid white;
+  border-top: 2px solid white;
 }
 
 .green {
   background-color: #048204;
   text-align: left;
   margin-right: 50px;
-  border-right: 5px;
-  border-top: 2px;
+  border-right: 5px solid white;
+  border-top: 2px solid white;
 }
 
 footer {
@@ -53,7 +53,7 @@ footer p {
   background-color: #eeff00;
   text-align: right;
   margin-left: 50px;
-  border: 0px, 5px, 2px, 0px;
+  border: 0px, 5px, 2px, 0px solid white;
   color: #707070;
 }
 

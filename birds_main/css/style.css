@@ -3,7 +3,7 @@ p {
 }
 
 a {
-    size: 16px;
+    font-size: 16px;
     color: #B21F50;
     text-decoration: underline wavy;
 }
@@ -24,13 +24,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #DDDDDD;
+    background-size: cover;
+
 }
 
 table {
     border-collapse: separate;
     border-spacing: 0px;
-    border-radius: 23px;
-    border: 2px solid black;
+    border-radius: 20px;
+    border-right: 2px solid black;
     margin: auto;
     
 }
@@ -42,13 +44,12 @@ td {
 }
 
 
-
-th {
+thead th {
     padding: 10px;
+    min-width: 125px;
 }
 
 thead {
-    min-width: 125px;
     padding: 10px;
     text-transform: uppercase;
     color: white;
@@ -57,12 +58,11 @@ thead {
 }
 
 tbody th {
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
     padding: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
-
-
 
 tr:nth-child(even) {
     background-color: #D1D1D1;
@@ -88,8 +88,4 @@ tbody tr:last-child th{
 
 tbody tr:last-child td:last-child{
     border-bottom-right-radius: 20px;
-}
-
-tbody tr:last-child td, tbody tr:last-child th{
-    border-bottom: none;
 }

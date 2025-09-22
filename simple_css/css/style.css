@@ -32,7 +32,7 @@ body {
 }
 
 .green {
-  background-color: #048204;
+  background-color: #008500;
   text-align: left;
   margin-right: 50px;
   border-right: 5px solid white;
@@ -46,15 +46,20 @@ footer {
 footer p {
   text-align: right;
   font-size: 20px;
-  padding: 15px, 0px, 15px, 15px;
+  padding: 15px, 15px, 15px, 0px;
 }
 
 .yellow {
   background-color: #eeff00;
   text-align: right;
   margin-left: 50px;
-  border: 0px, 5px, 2px, 0px solid white;
-  color: #707070;
+  border-bottom: 2px solid white;
+  border-left: 5px solid white;
+  
+}
+
+.yellow p {
+  color: #707070; 
 }
 
 img {
@@ -70,13 +75,14 @@ h2 {
 
 p {
   font-size: 24px;
-  padding: 10px, 10px, 0px, 0px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 div {
-  max-height: 200px;
+  min-height: 200px;
   padding: 20px;
-  border: solid white;
+  border: 3px solid white;
 }
 
 h1 {
